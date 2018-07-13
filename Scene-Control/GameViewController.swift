@@ -24,7 +24,7 @@ class GameViewController: UIViewController {
 	var configScene: ConfigScene!
     var menuScene: MenuScene!
     var instructionsScene: InstructionsScene!
-    var creditsScene: CreditsScene!
+
 	
 	// MARK: Override Methods
 	
@@ -33,9 +33,6 @@ class GameViewController: UIViewController {
         
         /// MenuScene Setup
         menuScene = MenuScene.init(sceneSize: view.bounds.size, referenceGVC: self)
-		
-        /// InstructionsScene Setup
-        instructionsScene = InstructionsScene.init(sceneSize: view.bounds.size, referenceGVC: self)
         
 		/// GameScene Setup
 		gameScene = GameScene.init(sceneSize: view.bounds.size, referenceGVC: self)
@@ -43,9 +40,9 @@ class GameViewController: UIViewController {
 		/// ConfigScene Setup
 		configScene = ConfigScene.init(sceneSize: view.bounds.size, referenceGVC: self)
         
-        /// CreditsScene Setup
-        creditsScene = CreditsScene.init(sceneSize: view.bounds.size, referenceGVC: self)
-		
+        /// ConfigScene Setup
+        instructionsScene = InstructionsScene.init(sceneSize: view.bounds.size, referenceGVC: self)
+        
 		/// Creates SceneStateMachine and adds states, then enters GameSceneState
 		sceneStateMachine = GKStateMachine(states: [	GameSceneState(referenceGVC: self),
                                                         MenuSceneState(referenceGVC: self),

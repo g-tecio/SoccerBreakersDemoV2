@@ -56,7 +56,12 @@ class ConfigScene: SKScene {
 		
 		/// Present Label and Button
 		self.addChild(configControls.titleLabel)
+        self.addChild(configControls.volumeLabel)
+        self.addChild(configControls.EffectsLabel)
+        self.addChild(configControls.MusicLabel)
 		self.addChild(configControls.buttonSprite)
+        self.addChild(configControls.background)
+        self.addChild(configControls.tShirtBackground)
 	}
 	
 	/// Before another Scence will be presented
@@ -71,7 +76,7 @@ class ConfigScene: SKScene {
 			let item = atPoint(location)
 			
 			/// Exit and return to GameScene
-			if (item.name == "buttonSprite-Config") || (item.name == "buttonLabel-Config") {
+			if (item.name == "buttonSprite-MenuConf") || (item.name == "Menu") {
 				gameViewController.sceneStateMachine.enter(MenuSceneState.self)
 			}
 		}

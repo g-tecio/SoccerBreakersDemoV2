@@ -32,7 +32,7 @@ struct CreditsControls {
 		
 		/// Exit  Button
 		buttonSprite = SKSpriteNode.init(imageNamed: "Button")
-		buttonSprite.name = "buttonSprite-MenuInst"
+		buttonSprite.name = "buttonSprite-MenuCred"
 		buttonSprite.zPosition = 1
 		buttonSprite.position = CGPoint(x: inThisScene.size.width/2, y: (inThisScene.size.height*1/13))
 		
@@ -44,7 +44,7 @@ struct CreditsControls {
 		
 		/// Exit Game label
 		buttonLabel = SKLabelNode.init(text: "Return to Menu")
-		buttonLabel.name = "buttonLabel-MenuInst"
+		buttonLabel.name = "buttonLabel-MenuCred"
 		buttonLabel.fontName = "Avenir-Heavy"
 		buttonLabel.horizontalAlignmentMode = .center
 		buttonLabel.verticalAlignmentMode = .center

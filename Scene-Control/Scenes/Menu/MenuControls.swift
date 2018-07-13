@@ -36,35 +36,35 @@ struct MenuControls {
 		/// Instructions  Button
 		buttonSprite = SKSpriteNode.init(imageNamed: "Button")
 		buttonSprite.name = "buttonSprite-Inst"
-		buttonSprite.zPosition = 1
+		buttonSprite.zPosition = 2
 		buttonSprite.position = CGPoint(x: inThisScene.size.width/2, y: (inThisScene.size.height*6/20))
 		
 		/// Instructions label
         buttonLabel = SKSpriteNode.init(imageNamed: "Inst")
         buttonLabel.name = "buttonSprite-Inst"
-        buttonLabel.zPosition = 2
+        buttonLabel.zPosition = 3
         
         /// Config  Button
         buttonConf = SKSpriteNode.init(imageNamed: "Button")
         buttonConf.name = "buttonSprite-Config"
-        buttonConf.zPosition = 1
+        buttonConf.zPosition = 2
         buttonConf.position = CGPoint(x: inThisScene.size.width/2, y: (inThisScene.size.height*3/20))
 		
         /// Config Label
         buttonConfLabel = SKSpriteNode.init(imageNamed: "Conf")
         buttonConfLabel.name = "buttonSprite-Config"
-        buttonConfLabel.zPosition = 2
+        buttonConfLabel.zPosition = 3
         
         /// Game  Button
         buttonGame = SKSpriteNode.init(imageNamed: "Button")
         buttonGame.name = "buttonLabel-Jugar"
-        buttonGame.zPosition = 1
+        buttonGame.zPosition = 2
         buttonGame.position = CGPoint(x: inThisScene.size.width/2, y: (inThisScene.size.height*9/20))
         
         /// Game label
         buttonGameLabel = SKSpriteNode.init(imageNamed: "Jugar")
         buttonGameLabel.name = "buttonSprite-Jugar"
-        buttonGameLabel.zPosition = 2
+        buttonGameLabel.zPosition = 3
         
         
         /// Resizing depending to screen size

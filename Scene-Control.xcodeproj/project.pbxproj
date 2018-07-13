@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		540AC25920F55E67006791A2 /* CreditsControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540AC25820F55E67006791A2 /* CreditsControls.swift */; };
-		540AC25B20F55E7F006791A2 /* CreditsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540AC25A20F55E7F006791A2 /* CreditsScene.swift */; };
-		540AC25D20F55FA4006791A2 /* CreditsSceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540AC25C20F55FA4006791A2 /* CreditsSceneState.swift */; };
 		54528CC020F407C300384A4D /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54528CBF20F407C300384A4D /* MenuScene.swift */; };
 		54528CC220F407DB00384A4D /* MenuControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54528CC120F407DB00384A4D /* MenuControls.swift */; };
 		54528CC420F4087500384A4D /* MenuSceneState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54528CC320F4087500384A4D /* MenuSceneState.swift */; };
@@ -31,12 +28,20 @@
 		CBEDA33D20ED1F1200891164 /* ConfigControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDA33C20ED1F1200891164 /* ConfigControls.swift */; };
 		CBEDA34120ED212F00891164 /* GameControls.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDA34020ED212F00891164 /* GameControls.swift */; };
 		CBEDA34320ED377C00891164 /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBEDA34220ED377C00891164 /* GameData.swift */; };
+		FBE3748C20F8FC4A002116C3 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE3748B20F8FC4A002116C3 /* GameOver.swift */; };
+		FBE3748E20F8FC63002116C3 /* Playing.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE3748D20F8FC63002116C3 /* Playing.swift */; };
+		FBE3749020F8FC79002116C3 /* WaitingForTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE3748F20F8FC79002116C3 /* WaitingForTap.swift */; };
+		FBE3749220F8FE7C002116C3 /* FlagsSprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE3749120F8FE7C002116C3 /* FlagsSprites.swift */; };
+		FBE3749C20F9008A002116C3 /* BallTouchTheScreen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBE3749620F9008A002116C3 /* BallTouchTheScreen.mp3 */; };
+		FBE3749D20F9008A002116C3 /* GameOverFlags.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBE3749720F9008A002116C3 /* GameOverFlags.mp3 */; };
+		FBE3749E20F9008A002116C3 /* GameWinFlags.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBE3749820F9008A002116C3 /* GameWinFlags.mp3 */; };
+		FBE3749F20F9008A002116C3 /* breakeFlags.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBE3749920F9008A002116C3 /* breakeFlags.mp3 */; };
+		FBE374A020F9008A002116C3 /* LostBallFlags.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FBE3749A20F9008A002116C3 /* LostBallFlags.mp3 */; };
+		FBE374A320F900A7002116C3 /* BrokenPlatform.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBE374A120F900A7002116C3 /* BrokenPlatform.sks */; };
+		FBE374A420F900A7002116C3 /* BallTrail.sks in Resources */ = {isa = PBXBuildFile; fileRef = FBE374A220F900A7002116C3 /* BallTrail.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		540AC25820F55E67006791A2 /* CreditsControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsControls.swift; sourceTree = "<group>"; };
-		540AC25A20F55E7F006791A2 /* CreditsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsScene.swift; sourceTree = "<group>"; };
-		540AC25C20F55FA4006791A2 /* CreditsSceneState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditsSceneState.swift; sourceTree = "<group>"; };
 		54528CBF20F407C300384A4D /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuScene.swift; path = "Scene-Control/Scenes/Menu/MenuScene.swift"; sourceTree = SOURCE_ROOT; };
 		54528CC120F407DB00384A4D /* MenuControls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuControls.swift; path = "Scene-Control/Scenes/Menu/MenuControls.swift"; sourceTree = SOURCE_ROOT; };
 		54528CC320F4087500384A4D /* MenuSceneState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuSceneState.swift; sourceTree = "<group>"; };
@@ -59,6 +64,19 @@
 		CBEDA33C20ED1F1200891164 /* ConfigControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigControls.swift; sourceTree = "<group>"; };
 		CBEDA34020ED212F00891164 /* GameControls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameControls.swift; sourceTree = "<group>"; };
 		CBEDA34220ED377C00891164 /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		FBE3748B20F8FC4A002116C3 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		FBE3748D20F8FC63002116C3 /* Playing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playing.swift; sourceTree = "<group>"; };
+		FBE3748F20F8FC79002116C3 /* WaitingForTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingForTap.swift; sourceTree = "<group>"; };
+		FBE3749120F8FE7C002116C3 /* FlagsSprites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsSprites.swift; sourceTree = "<group>"; };
+		FBE3749320F90024002116C3 /* Hard Sports.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Hard Sports.ttf"; sourceTree = "<group>"; };
+		FBE3749420F9002C002116C3 /* Pixellari.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pixellari.ttf; sourceTree = "<group>"; };
+		FBE3749620F9008A002116C3 /* BallTouchTheScreen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BallTouchTheScreen.mp3; sourceTree = "<group>"; };
+		FBE3749720F9008A002116C3 /* GameOverFlags.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameOverFlags.mp3; sourceTree = "<group>"; };
+		FBE3749820F9008A002116C3 /* GameWinFlags.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = GameWinFlags.mp3; sourceTree = "<group>"; };
+		FBE3749920F9008A002116C3 /* breakeFlags.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = breakeFlags.mp3; sourceTree = "<group>"; };
+		FBE3749A20F9008A002116C3 /* LostBallFlags.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = LostBallFlags.mp3; sourceTree = "<group>"; };
+		FBE374A120F900A7002116C3 /* BrokenPlatform.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BrokenPlatform.sks; sourceTree = "<group>"; };
+		FBE374A220F900A7002116C3 /* BallTrail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallTrail.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,15 +90,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		540AC25720F55E12006791A2 /* Credits */ = {
-			isa = PBXGroup;
-			children = (
-				540AC25820F55E67006791A2 /* CreditsControls.swift */,
-				540AC25A20F55E7F006791A2 /* CreditsScene.swift */,
-			);
-			path = Credits;
-			sourceTree = "<group>";
-		};
 		54528CBE20F407A500384A4D /* Menu */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +156,6 @@
 				CBEDA33F20ED20E700891164 /* Game */,
 				CBEDA33E20ED20D600891164 /* Config */,
 				54528CC520F40F2300384A4D /* Instructions */,
-				540AC25720F55E12006791A2 /* Credits */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -160,7 +168,6 @@
 				CBEDA33820ED1BA600891164 /* GameSceneState.swift */,
 				CBEDA33A20ED1BC100891164 /* ConfigSceneState.swift */,
 				54528CCA20F4108400384A4D /* InstructionsSceneState.swift */,
-				540AC25C20F55FA4006791A2 /* CreditsSceneState.swift */,
 			);
 			path = SceneStates;
 			sourceTree = "<group>";
@@ -168,8 +175,8 @@
 		CBEDA33E20ED20D600891164 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				CBEDA33620ED1AC100891164 /* ConfigScene.swift */,
 				CBEDA33C20ED1F1200891164 /* ConfigControls.swift */,
+				CBEDA33620ED1AC100891164 /* ConfigScene.swift */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -177,10 +184,55 @@
 		CBEDA33F20ED20E700891164 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				FBE3748A20F8FBB9002116C3 /* Fonts */,
+				FBE3748920F8FBAE002116C3 /* Sounds */,
+				FBE3748820F8FBA0002116C3 /* Particles */,
+				FBE3748720F8FB4C002116C3 /* Game States */,
 				CBEDA34020ED212F00891164 /* GameControls.swift */,
 				CBEDA32020ED15B500891164 /* GameScene.swift */,
+				FBE3749120F8FE7C002116C3 /* FlagsSprites.swift */,
 			);
 			path = Game;
+			sourceTree = "<group>";
+		};
+		FBE3748720F8FB4C002116C3 /* Game States */ = {
+			isa = PBXGroup;
+			children = (
+				FBE3748B20F8FC4A002116C3 /* GameOver.swift */,
+				FBE3748D20F8FC63002116C3 /* Playing.swift */,
+				FBE3748F20F8FC79002116C3 /* WaitingForTap.swift */,
+			);
+			path = "Game States";
+			sourceTree = "<group>";
+		};
+		FBE3748820F8FBA0002116C3 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				FBE374A220F900A7002116C3 /* BallTrail.sks */,
+				FBE374A120F900A7002116C3 /* BrokenPlatform.sks */,
+			);
+			path = Particles;
+			sourceTree = "<group>";
+		};
+		FBE3748920F8FBAE002116C3 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FBE3749620F9008A002116C3 /* BallTouchTheScreen.mp3 */,
+				FBE3749920F9008A002116C3 /* breakeFlags.mp3 */,
+				FBE3749720F9008A002116C3 /* GameOverFlags.mp3 */,
+				FBE3749820F9008A002116C3 /* GameWinFlags.mp3 */,
+				FBE3749A20F9008A002116C3 /* LostBallFlags.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		FBE3748A20F8FBB9002116C3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FBE3749420F9002C002116C3 /* Pixellari.ttf */,
+				FBE3749320F90024002116C3 /* Hard Sports.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,8 +296,15 @@
 				CBEDA32620ED15B500891164 /* Main.storyboard in Resources */,
 				54AFF42C20F67BDF00F0EC85 /* Hard Sports.ttf in Resources */,
 				CBEDA32820ED15B700891164 /* Assets.xcassets in Resources */,
+				FBE374A420F900A7002116C3 /* BallTrail.sks in Resources */,
+				FBE374A020F9008A002116C3 /* LostBallFlags.mp3 in Resources */,
+				FBE3749E20F9008A002116C3 /* GameWinFlags.mp3 in Resources */,
 				54AFF42E20F67CC900F0EC85 /* Info.plist in Resources */,
 				CBEDA32B20ED15B700891164 /* LaunchScreen.storyboard in Resources */,
+				FBE3749D20F9008A002116C3 /* GameOverFlags.mp3 in Resources */,
+				FBE374A320F900A7002116C3 /* BrokenPlatform.sks in Resources */,
+				FBE3749C20F9008A002116C3 /* BallTouchTheScreen.mp3 in Resources */,
+				FBE3749F20F9008A002116C3 /* breakeFlags.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,22 +315,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				540AC25920F55E67006791A2 /* CreditsControls.swift in Sources */,
+				FBE3749220F8FE7C002116C3 /* FlagsSprites.swift in Sources */,
+				FBE3748E20F8FC63002116C3 /* Playing.swift in Sources */,
 				CBEDA32120ED15B500891164 /* GameScene.swift in Sources */,
 				CBEDA34320ED377C00891164 /* GameData.swift in Sources */,
 				54528CC020F407C300384A4D /* MenuScene.swift in Sources */,
+				FBE3749020F8FC79002116C3 /* WaitingForTap.swift in Sources */,
 				CBEDA33D20ED1F1200891164 /* ConfigControls.swift in Sources */,
-				540AC25B20F55E7F006791A2 /* CreditsScene.swift in Sources */,
 				CBEDA33B20ED1BC100891164 /* ConfigSceneState.swift in Sources */,
 				54528CC920F40F6200384A4D /* InstructionsControls.swift in Sources */,
 				CBEDA32320ED15B500891164 /* GameViewController.swift in Sources */,
 				54528CC220F407DB00384A4D /* MenuControls.swift in Sources */,
 				CBEDA33920ED1BA600891164 /* GameSceneState.swift in Sources */,
+				FBE3748C20F8FC4A002116C3 /* GameOver.swift in Sources */,
 				CBEDA34120ED212F00891164 /* GameControls.swift in Sources */,
 				CBEDA33520ED16E700891164 /* SceneState.swift in Sources */,
 				54528CCB20F4108400384A4D /* InstructionsSceneState.swift in Sources */,
 				CBEDA31B20ED15B500891164 /* AppDelegate.swift in Sources */,
-				540AC25D20F55FA4006791A2 /* CreditsSceneState.swift in Sources */,
 				54528CC720F40F4F00384A4D /* InstructionsScene.swift in Sources */,
 				54528CC420F4087500384A4D /* MenuSceneState.swift in Sources */,
 				CBEDA33720ED1AC100891164 /* ConfigScene.swift in Sources */,

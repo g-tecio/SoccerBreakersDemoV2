@@ -46,6 +46,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Hard Sports.ttf</string>
+		<string>Pixellari.ttf</string>
 	</array>
 </dict>
 </plist>
