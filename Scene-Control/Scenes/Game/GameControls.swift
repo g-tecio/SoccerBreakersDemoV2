@@ -131,19 +131,21 @@ struct GameControls {
         //Go to menu
         buttonSpriteReply = SKSpriteNode.init(imageNamed: "Button")
         buttonSpriteReply.name = "buttonSprite-Game"
-        buttonSpriteReply.zPosition = 5
+        buttonSpriteReply.zPosition = 2
         buttonSpriteReply.position = CGPoint(x: inThisScene.size.width/2, y: inThisScene.size.height * (0.35))
         ///
         buttonLabelReply = SKSpriteNode.init(imageNamed: "Menu")
         buttonLabelReply.name = "menuLabel"
         buttonLabelReply.zPosition = 3
+
         
         // Resizing depending to screen size
         let resizeFactorXReply:CGFloat = inThisScene.size.width/407.0
         let resizeFactorYReply:CGFloat = inThisScene.size.height/599.0
         let originalSizeReply = buttonSpriteReply.size
         buttonSpriteReply.size = CGSize(width: originalSizeReply.width*resizeFactorXReply, height: originalSizeReply.height*resizeFactorYReply)
-        
+         buttonLabelReply.size = CGSize(width: originalSizeReply.width*resizeFactorXReply, height: originalSizeReply.height*resizeFactorYReply)
+       
         //GameMessage
         gameMessage = SKSpriteNode(imageNamed: "TapToPlay")
         gameMessage.name = GameMessageName
